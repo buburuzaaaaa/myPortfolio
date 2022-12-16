@@ -9,6 +9,9 @@
     font-size: larger;
     color: aqua;
 text-align: center;
+font-size:larger;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+position: fixed;
 }
 .s2{
     margin-left: 25%;
@@ -16,11 +19,24 @@ text-align: center;
 body{
     background-color: whitesmoke;
 }
-.btn{
-    background-color: #b69d74;
-    border-radius: 5px;
-}
+
 .bbl{
         border-radius: 100%;
         border: 5px  solid black;
+}
+.lnk{
+    text-decoration: none;
+    color: #000;
+}
+
+.sidebar a:hover{
+    color: white;
+        padding: 10px;
+        transition: transform .8s;
+        width: 130px;
+        height: 50px;
+        margin: 0 auto;
+        font-size: x-large;
+        transform: scale(1.5);
+
 }
