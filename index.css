@@ -47,3 +47,13 @@ hr{
 background-color:#2d3040;
 margin-left: 0px;
 }
+.cantainer{
+    float: left;
+}
+.btn{
+font-size: 70px;
+font-weight: bolder;
+text-decoration: none;
+color: #2d3040;
+}
+
